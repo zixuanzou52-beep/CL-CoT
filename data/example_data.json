@@ -1,0 +1,72 @@
+[
+  {
+    "table_id": "example_001",
+    "table": {
+      "headers": ["Year", "Revenue", "Profit", "Employees"],
+      "rows": [
+        ["2018", "800000", "150000", "45"],
+        ["2019", "1000000", "200000", "52"],
+        ["2020", "1250000", "300000", "60"],
+        ["2021", "1500000", "400000", "68"]
+      ]
+    },
+    "question": "What is the total revenue in 2020?",
+    "answer": "1250000"
+  },
+  {
+    "table_id": "example_002",
+    "table": {
+      "headers": ["Year", "Revenue", "Profit", "Employees"],
+      "rows": [
+        ["2018", "800000", "150000", "45"],
+        ["2019", "1000000", "200000", "52"],
+        ["2020", "1250000", "300000", "60"],
+        ["2021", "1500000", "400000", "68"]
+      ]
+    },
+    "question": "How many employees were there in 2019?",
+    "answer": "52"
+  },
+  {
+    "table_id": "example_003",
+    "table": {
+      "headers": ["Year", "Revenue", "Profit", "Employees"],
+      "rows": [
+        ["2018", "800000", "150000", "45"],
+        ["2019", "1000000", "200000", "52"],
+        ["2020", "1250000", "300000", "60"],
+        ["2021", "1500000", "400000", "68"]
+      ]
+    },
+    "question": "What is the average profit from 2018 to 2021?",
+    "answer": "262500"
+  },
+  {
+    "table_id": "example_004",
+    "table": {
+      "headers": ["Product", "Price", "Sales", "Revenue"],
+      "rows": [
+        ["Widget A", "25", "100", "2500"],
+        ["Widget B", "40", "75", "3000"],
+        ["Widget C", "60", "50", "3000"],
+        ["Widget D", "100", "30", "3000"]
+      ]
+    },
+    "question": "Which product has the highest price?",
+    "answer": "Widget D"
+  },
+  {
+    "table_id": "example_005",
+    "table": {
+      "headers": ["Product", "Price", "Sales", "Revenue"],
+      "rows": [
+        ["Widget A", "25", "100", "2500"],
+        ["Widget B", "40", "75", "3000"],
+        ["Widget C", "60", "50", "3000"],
+        ["Widget D", "100", "30", "3000"]
+      ]
+    },
+    "question": "What is the total revenue from all products?",
+    "answer": "11500"
+  }
+]
