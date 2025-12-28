@@ -17,10 +17,11 @@ CL-CoT is a novel framework that enhances Chain-of-Thought reasoning for complex
 CL-CoT/
 ├── configs/           # Configuration files
 ├── data/             # Data processing modules
-├── models/           # Model implementations
-├── training/         # Training modules
 ├── evaluation/       # Evaluation metrics
+├── models/           # Model implementations
 ├── scripts/          # Training and evaluation scripts
+├── tests/            # Unit tests
+├── training/         # Training modules
 ├── utils/            # Utility functions
 └── README.md         # This file
 ```
