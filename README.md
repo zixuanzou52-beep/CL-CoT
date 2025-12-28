@@ -230,5 +230,3 @@ This work builds upon:
 - Transformers by Hugging Face
 
 ---
-
-**Note**: This is a research prototype. For production use, additional engineering and testing are recommended.
